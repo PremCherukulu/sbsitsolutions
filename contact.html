@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/sbsitsolutions/images/favicon.png" type="image/png" sizes="16x16">
+    <title>SBS IT Solutions || Home </title>
+    <link rel="stylesheet" href="/sbsitsolutions/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/1d3a21a52f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <img class="logo-img" src="/sbsitsolutions/images/logo.jpg" alt="logo"/>
+            <div class="menu-items">
+            <a href="/sbsitsolutions/index.html">Home</a>
+            <a href="/sbsitsolutions/about.html">About Us</a>
+            <a href="/sbsitsolutions/products.html">Products</a>
+            <a href="/sbsitsolutions/services.html">Services</a>
+            <a href="/sbsitsolutions/contact.html">Contact Us</a>
+            </div>  
+            
+    </header>
+    <br>
+    <div>
+    
+    <main class="contact">
+        <h1>We welcome any feedback, questions or comments!</h1>
+        <div class="contact-heading">
+        
+        <div class="contact-details">
+            <h2 class="address">ADDRESS</h2>
+            <br />
+            <p># 10, Kempamma Nilaya, Opposite Ganesha Temple,</p>
+            <p>   Chikkasandra, Bonemill, Hesarghatta Main Road, </p>
+                Bangalore-560057</p>
+                <br>
+                <h4> Phone Number: +91 974142038 / +91 8660113272</h4>
+                <h3>Email : sbsmohan80@gmail.com</h3>
+        </div>
+        <form class="contact-form" method="POST" data-email="premkumar666@gmail.com" action="https://script.google.com/macros/s/AKfycbzoA1KH1hagPFMlN4qpZhUlvaD2tR7hDMWsUBFKkBCRO70nU7PCd4NbDgPnZw4G04QG/exec">      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <input name="phnumber" type="tel" class="feedback-input" placeholder="Phone Number" />
+            <textarea name="text" class="feedback-input-message" placeholder="Message"></textarea>
+            <input class="feedback-submit" type="submit" value="SEND"/>
+          </form>
+        </div>
+    </main>
+    </div>
+    <footer>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-google-plus-square"></i></a></li>
+            </ul>
+            <h2><b>© 2015 SBS IT Solutions . All Rights Reserved </b></h2>
+           <p>Made with &hearts; by Prem</p>
+
+    </footer>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          
+          slides[slideIndex-1].style.display = "block";  
+          
+          setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
+    </script>
+    <script data-cfasync="false" type="text/javascript" src="/sbsitsolutions/fsh.js"></script>
+</body>
+</html>

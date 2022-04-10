@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/sbsitsolutions/images/favicon.png" type="image/png" sizes="16x16">
+    <title>SBS IT Solutions || About Us</title>
+    <link rel="stylesheet" href="/sbsitsolutions/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/1d3a21a52f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <img class="logo-img" src="/sbsitsolutions/images/logo.jpg" alt="logo"/>
+            <div class="menu-items">
+            <a href="/sbsitsolutions/index.html">Home</a>
+            <a href="/sbsitsolutions/about.html">About Us</a>
+            <a href="/sbsitsolutions/products.html">Products</a>
+            <a href="/sbsitsolutions/services.html">Services</a>
+            <a href="/sbsitsolutions/contact.html">Contact Us</a>
+            </div>  
+            
+    </header>
+    <br>
+    <main class="about">
+        <div class="about-us">
+           <h1>Who are we?</h1>
+           <p class="about-info">SBS IT Solutions In business since 2015, headquartered in Bangalore (Karnataka India) serving the IT industry with our experienced team of professionals on board and high quality and cost-effective repair and service of all brands of Laptops and Desktops, Servers and Computer peripherals. Since then we have been widely called as one of the best computer repair centers in BANGALORE. SBS IT Solutions is 'ONE STOP' Information technology hardware and networking solutions.</p>
+        </div>
+        <div class="about-images">
+          <img src="/sbsitsolutions/aboutImages/aboutImg1.jpeg" width="250px" height="250px" alt="about1" />
+          <img src="/sbsitsolutions/aboutImages/aboutImg2.jpeg" width="250px" height="250px" alt="about2" />
+          <img src="/sbsitsolutions/aboutImages/aboutImg3.jpeg" width="250px" height="250px" alt="about3" />
+        </div>
+        <div class="why">
+            <h1>Why choose us?</h1>
+            <div class="why-container">
+                <div class="why-card">
+                  <img class="why-num" src="/sbsitsolutions/aboutImages/num1.png" alt="1" />
+                  <h4>Speed in Customisation</h4>
+                  <p>Our “Speed in Customisation” enables us to achieve tailor-made solution for every different need of customers in a timely manner.</p>
+                </div>
+                <div class="why-card">
+                  <img class="why-num" src="/sbsitsolutions/aboutImages/num2.png" alt="2" />
+                  <h4>Responsive Services</h4>
+                  <p>Our “Responsive Services” was widely recognized in the industry. While we are fast, nothing is compromised.</p>
+                </div>
+                <div class="why-card">
+                  <img class="why-num" src="/sbsitsolutions/aboutImages/num3.png" alt="3" />
+                  <h4>Cost Effective Services</h4>
+                  <p>Our "cost effective Servers" high skilled team to give Solutions for IT industry.</p>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="about-final">
+          <p>
+            SBS IT Solutions is an end-to-end hardware and software repair company. SBS manages end-to-end technical support, customer care, out of warranty services, Helpdesk and manages services, repair and refurbishment, project roll-outs, etc. through its single window solutions to meet any client need and ensure that clients can focus on their own core competency and increase customer satisfaction..SBS IT Solutions deals with competitive brands We serve all types of customers including individual to corporate companies. Our specialized technicians serve the customers with skills which are needed for a perfect diagnostic & repair techniques within the given time frame .SBS IT Solutions aims for complete customer needs and satisfaction.
+          </p>
+        </div>
+    </main>
+    <footer>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-google-plus-square"></i></a></li>
+            </ul>
+            <h2><b>© 2015 SBS IT Solutions . All Rights Reserved </b></h2>
+           <p>Made with &hearts; by Prem</p>
+
+    </footer>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          
+          slides[slideIndex-1].style.display = "block";  
+          
+          setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
+    </script>
+</body>
+</html>
